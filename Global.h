@@ -5,4 +5,9 @@ clsUser currentUser = clsUser::find("", "");
 
 
 
+clsUser getCurrentUser()
+{
+	return currentUser;
+}
+
 
